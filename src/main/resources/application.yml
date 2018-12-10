@@ -1,0 +1,17 @@
+server:
+  port: 80
+  servlet:
+    context-path: /article
+spring:
+  data:
+    mongodb:
+      uri:  mongodb://root:123321@localhost:27017/admin
+#配置swagger2
+swagger2:
+  VERSION: v1.0
+  SWAGGER_SCAN_BASE_PACKAGE: com.runrunfast.Article
+  TITLE: 意识在线API
+  DESCRIPTION: API文档
+  AUTHOR: 邹智敏
+  URL: https://www.zzmmax.com
+  EMAIL: 邮箱：1596762965@qq.com
